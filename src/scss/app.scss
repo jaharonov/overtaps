@@ -1,8 +1,42 @@
 
 $primary:               #d06fd0;
 $secondary:             #29B7EE;
-$body-bg:               #e9ecef;
+$body-bg:               rgb(154, 213, 236);
 $enable-gradients: true;
+
+$jumbotron-bg:                      rgb(154, 213, 236);
+.object-fit_contain { object-fit: contain }
+
+$navbar-light-color:                #29B7EE;
+$navbar-light-hover-color:          #E8AF10;
+$navbar-light-active-color:         #E8AF10;
+
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+
+ 
+
+/* Image for Parallax Section */ 
+
+ 
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{
+    margin-bottom: 0;
+    font-family: 'Hind', sans-serif;
+    
+
+
+}
+
+
 @import "~bootstrap/scss/bootstrap";
 
 
