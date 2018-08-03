@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://use.fontawesome.com/ba4ae401ed.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <script src="https://sdks.shopifycdn.com/js-buy-sdk/latest/shopify-buy.polyfilled.globals.min.js"></script>
+    <script src="buysdk.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar sticky-top navbar-light bg-primary navbar-expand-lg mr-auto">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/overtap-logo.png" width="auto" height="80" class="d-inline-block align-top" alt="OverTaps Logo">
+        </a>
+        <span></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id='collection-component-5236b110daa'></div>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+
+        (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                } else {
+                    loadScript();
+                }
+            } else {
+                loadScript();
+            }
+
+            function loadScript() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = scriptURL;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+                var client = ShopifyBuy.buildClient({
+                    domain: 'overtaps.myshopify.com',
+                    apiKey: '244fc4d27a412190862e1ff0232cb6d0',
+                    appId: '6',
+                });
+
+                ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('collection', {
+                        id: 73032532079,
+                        node: document.getElementById('collection-component-5236b110daa'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                            "product": {
+                                "variantId": "all",
+                                "contents": {
+                                    "imgWithCarousel": false,
+                                    "variantTitle": false,
+                                    "description": false,
+                                    "buttonWithQuantity": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "calc(25% - 20px)",
+                                            "margin-left": "20px",
+                                            "margin-bottom": "50px"
+                                        }
+                                    }
+                                }
+                            },
+                            "cart": {
+                                "contents": {
+                                    "button": true
+                                },
+                                "styles": {
+                                    "footer": {
+                                        "background-color": "#ffffff"
+                                    }
+                                }
+                            },
+                            "modalProduct": {
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "variantTitle": false,
+                                    "buttonWithQuantity": true,
+                                    "button": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0px",
+                                            "margin-bottom": "0px"
+                                        }
+                                    }
+                                }
+                            },
+                            "productSet": {
+                                "styles": {
+                                    "products": {
+                                        "@media (min-width: 601px)": {
+                                            "margin-left": "-20px"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+        })();
+    /*]]>*/
+    </script>
+
+<footer class="fixed-bottom bg-primary">
+    <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+</footer>
+
+<script src="./bundle.js"></script>
+</body>
+
+</html>
