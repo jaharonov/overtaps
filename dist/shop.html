@@ -26,22 +26,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home
+                        
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Shop
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div id='collection-component-5236b110daa'></div>
+    <div class="container-fluid"></div>
+    <div class="pt-5">
+    <div id='collection-component-e26f65c8981'></div>
+    </div>
     <script type="text/javascript">
         /*<![CDATA[*/
 
@@ -75,7 +79,7 @@
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
                     ui.createComponent('collection', {
                         id: 73032532079,
-                        node: document.getElementById('collection-component-5236b110daa'),
+                        node: document.getElementById('collection-component-e26f65c8981'),
                         moneyFormat: '%24%7B%7Bamount%7D%7D',
                         options: {
                             "product": {
@@ -90,22 +94,75 @@
                                 "styles": {
                                     "product": {
                                         "@media (min-width: 601px)": {
-                                            "max-width": "calc(25% - 20px)",
-                                            "margin-left": "20px",
+                                            "max-width": "calc(33.33333% - 30px)",
+                                            "margin-left": "30px",
                                             "margin-bottom": "50px"
                                         }
+                                    },
+                                    "button": {
+                                        "background-color": "#e8af10",
+                                        "font-family": "Montserrat, sans-serif",
+                                        ":hover": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        "font-weight": "bold"
+                                    },
+                                    "variantTitle": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "title": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "description": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "price": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "compareAt": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat"
+                                ]
                             },
                             "cart": {
                                 "contents": {
                                     "button": true
                                 },
                                 "styles": {
+                                    "button": {
+                                        "background-color": "#e8af10",
+                                        "font-family": "Montserrat, sans-serif",
+                                        ":hover": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        "font-weight": "bold"
+                                    },
                                     "footer": {
                                         "background-color": "#ffffff"
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Montserrat"
+                                ]
                             },
                             "modalProduct": {
                                 "contents": {
@@ -123,14 +180,85 @@
                                             "margin-left": "0px",
                                             "margin-bottom": "0px"
                                         }
+                                    },
+                                    "button": {
+                                        "background-color": "#e8af10",
+                                        "font-family": "Montserrat, sans-serif",
+                                        ":hover": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        "font-weight": "bold"
+                                    },
+                                    "variantTitle": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "title": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "description": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "price": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
+                                    },
+                                    "compareAt": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "font-weight": "normal"
                                     }
-                                }
+                                },
+                                "googleFonts": [
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat",
+                                    "Montserrat"
+                                ]
+                            },
+                            "toggle": {
+                                "styles": {
+                                    "toggle": {
+                                        "font-family": "Montserrat, sans-serif",
+                                        "background-color": "#e8af10",
+                                        ":hover": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        ":focus": {
+                                            "background-color": "#d19e0e"
+                                        },
+                                        "font-weight": "bold"
+                                    }
+                                },
+                                "googleFonts": [
+                                    "Montserrat"
+                                ]
+                            },
+                            "option": {
+                                "styles": {
+                                    "label": {
+                                        "font-family": "Montserrat, sans-serif"
+                                    },
+                                    "select": {
+                                        "font-family": "Montserrat, sans-serif"
+                                    }
+                                },
+                                "googleFonts": [
+                                    "Montserrat",
+                                    "Montserrat"
+                                ]
                             },
                             "productSet": {
                                 "styles": {
                                     "products": {
                                         "@media (min-width: 601px)": {
-                                            "margin-left": "-20px"
+                                            "margin-left": "-30px"
                                         }
                                     }
                                 }
@@ -142,9 +270,9 @@
         })();
     /*]]>*/
     </script>
-
+</div>
 <footer class="fixed-bottom bg-primary">
-    <div class="container">
+    <div class="container-fluid">
         <span class="text-muted">Place sticky footer content here.</span>
     </div>
 </footer>

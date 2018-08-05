@@ -3,7 +3,7 @@ $primary:               #d06fd0;
 $secondary:             #29B7EE;
 $body-bg:               rgb(154, 213, 236);
 $enable-gradients: true;
-
+$warning:               #E8AF10;
 $jumbotron-bg:                      rgb(154, 213, 236);
 .object-fit_contain { object-fit: contain }
 
@@ -19,9 +19,13 @@ background-size: cover;
 background-position: 50% 50%;
 }
 
+#home-icon {
+    z-index: 1;
+}
 
- 
-
+#home-text {
+    z-index: 2;
+}
 /* Image for Parallax Section */ 
 
  
@@ -30,7 +34,12 @@ background-position: 50% 50%;
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron{
     margin-bottom: 0;
-    font-family: 'Hind', sans-serif;
+    // font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
+    
+
     
 
 
