@@ -6,7 +6,7 @@ $enable-gradients: true;
 $warning:               #E8AF10;
 $jumbotron-bg:                      rgb(154, 213, 236);
 .object-fit_contain { object-fit: contain }
-
+$link-hover-decoration:                  none;
 $navbar-light-color:                #29B7EE;
 $navbar-light-hover-color:          #E8AF10;
 $navbar-light-active-color:         #E8AF10;
@@ -37,12 +37,10 @@ background-position: 50% 50%;
     // font-family: 'Hind', sans-serif;
     font-family: 'Poppins', sans-serif;
 
+}
 
-    
-
-    
-
-
+.about {
+    font-family: 'Poppins', sans-serif;
 }
 
 
