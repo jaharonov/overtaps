@@ -11,7 +11,7 @@
 
   <title></title>
 </head>
-<body>
+<body class="hidden">
 <!-- Image and text -->
 <nav class="navbar sticky-top navbar-light bg-primary navbar-expand-lg mr-auto">
     <a class="navbar-brand" href="#">
@@ -88,7 +88,12 @@ toe and heel and a 1/4" rubber sole to prevent slipping and to quietly practice 
     </div>
 </footer>
 
-  <script src="./bundle.js"></script>
+<script src="./bundle.js" type="text/javascript">
+    $(document).ready(function () {
+        $("body").removeClass('hidden');
+    });
+
+</script>
 </body>
 
 </html>
