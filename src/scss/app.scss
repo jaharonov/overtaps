@@ -1,15 +1,18 @@
 
-$primary:               #d06fd0;
-$secondary:             #29B7EE;
-$body-bg:               rgb(154, 213, 236);
+// $primary:              #44318D;
+$primary:               #6235B1;
+$secondary:            #BE99FF;
+$body-bg:               #BE99FF;
+// $body-bg:               #A4b3b6;
 $enable-gradients: true;
-$warning:               #E8AF10;
-$jumbotron-bg:                      rgb(154, 213, 236);
+$warning:                           #D83F87;
+$jumbotron-bg:                      #BE99FF;
 .object-fit_contain { object-fit: contain }
 $link-hover-decoration:                  none;
-$navbar-light-color:                #29B7EE;
-$navbar-light-hover-color:          #E8AF10;
-$navbar-light-active-color:         #E8AF10;
+$navbar-light-color:                #A4B3B6;
+$navbar-light-hover-color:          #D83F87;
+
+$navbar-light-active-color:         #BE99FF;
 
 /* Header Parallax Element Style*/ 
 .paral {
