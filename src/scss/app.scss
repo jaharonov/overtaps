@@ -1,12 +1,15 @@
+$primary: #BE99FF;
+$body-bg: white;
+$jumbotron-bg: white;
+$secondary: #6C2291;
 
 // $primary:              #44318D;
-$primary:               #6235B1;
-$secondary:            #BE99FF;
-$body-bg:               #BE99FF;
+// $primary:               #6235B1;
+// $secondary:            #BE99FF;
+// $body-bg:               #BE99FF;
 // $body-bg:               #A4b3b6;
-$enable-gradients: true;
-$warning:                           #D83F87;
-$jumbotron-bg:                      #BE99FF;
+ $warning:                           #D83F87;
+// $jumbotron-bg:                      #BE99FF;
 .object-fit_contain { object-fit: contain }
 $link-hover-decoration:                  none;
 $navbar-light-color:                #A4B3B6;
@@ -22,13 +25,9 @@ background-size: cover;
 background-position: 50% 50%;
 }
 
-#home-icon {
-    z-index: 1;
-}
 
-#home-text {
-    z-index: 2;
-}
+
+
 /* Image for Parallax Section */ 
 
  
@@ -38,17 +37,39 @@ background-position: 50% 50%;
 .jumbotron{
     margin-bottom: 0;
     // font-family: 'Hind', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    // 
+    font-family: 'Work Sans', sans-serif;
+
+
 
 }
+.figcaption {
+    font-family: 'Work Sans', sans-serif;
 
+    
+}
+#home-card {
+    border-radius: 0;
+}
+
+#about-card {
+    border-radius: 0;
+}
+
+#denise-card {
+    border-radius: 0;
+}
+.card-text {
+    font-family: 'Work Sans', sans-serif;
+
+
+}
 .about {
-    font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
 }
 
-.hidden {
-    display: none;
-}
+
 @import "~bootstrap/scss/bootstrap";
 
 
