@@ -76,5 +76,10 @@ font-family: 'Work Sans', sans-serif;
     font-size: 1.5rem;
   }
 }
+@include media-breakpoint-down(sm) {
+  .card-text {
+    font-size: 1.5rem;
+  }
+}
 
 
