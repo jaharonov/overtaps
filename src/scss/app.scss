@@ -81,5 +81,10 @@ font-family: 'Work Sans', sans-serif;
     font-size: 1.3rem;
   }
 }
+@include media-breakpoint-down(sm) {
+  #denise-link {
+    font-weight: bold;
+  }
+}
 
 
