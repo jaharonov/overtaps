@@ -77,8 +77,8 @@ font-family: 'Work Sans', sans-serif;
   }
 }
 @include media-breakpoint-down(sm) {
-  .card-text {
-    font-size: 1.5rem;
+  p {
+    font-size: 1.3rem;
   }
 }
 
