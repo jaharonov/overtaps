@@ -40,9 +40,9 @@ background-position: 50% 50%;
     // 
     font-family: 'Work Sans', sans-serif;
 
-
-
 }
+
+
 .figcaption {
     font-family: 'Work Sans', sans-serif;
 
@@ -71,5 +71,10 @@ font-family: 'Work Sans', sans-serif;
 
 
 @import "~bootstrap/scss/bootstrap";
+@include media-breakpoint-down(sm) {
+  .jumbotron {
+    font-size: 1.5rem;
+  }
+}
 
 
